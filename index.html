@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Dark/Light Mode</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Toggle Theme</h1>
+      <div style="display: flex; align-items: center;justify-content: center; ">
+        <div id="toggleBox"
+          style="
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            gap: 10px;
+            width: fit-content;
+            border-radius: 22px;
+          "
+        >
+          <img src="img/sun.png" loading="lazy" alt="" width="30" />
+          <div id="toggler"
+            style="
+              position: absolute;
+              left: 16px;
+              height: 35px;
+              width: 35px;
+              background-color: #fff;
+              border: 0.8px solid black;
+              border-radius: 50%;
+            "
+          ></div>
+          <img src="img/moon.png" loading="lazy" alt="" width="30" />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+
+   
+  </body>
+</html>

@@ -1,0 +1,39 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Light mode */
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+#themeToggle {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Dark mode */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#themeToggle.dark {
+    background-color: #555;
+    
+}
+#toggler {
+    transition: transform 0.5s ease; }
+
